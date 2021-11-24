@@ -1,0 +1,6 @@
+a = float( input("Geben Sie die 1. Temperatur ein: "))
+b = float( input("Geben Sie die 2. Temperatur ein: "))
+c = float( input("Geben Sie die 3. Temperatur ein: "))
+d = float((a+b+c)/3)
+print("Der Mittelwert der Temperatur ist: ", round(d,2), "°C")
+input()
