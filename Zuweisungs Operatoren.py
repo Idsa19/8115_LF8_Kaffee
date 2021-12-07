@@ -26,3 +26,4 @@ z = x
 z <<= y
 print("Bitwise left shift on operands:  {0}<<={1} =>{2}".format("{0:08b}".format(x), "{0:08b}".format(y), "{0:08b}".format(z)))
 print("Bitwise left shift on operands:  {0}<<={1} =>{2}\n".format(x, y, z))
+input()
