@@ -3,19 +3,19 @@ y = int(input("Geben Sie die 2. Zahl ein: "))
 
 z = x
 z += y
-print("Addition:                        {0}+={1} =>{2}".format(x, y, z))
+print("Addition: {0}+={1} =>{2}".format(x, y, z))
 z = x
 z &= y
-print("{0}&={1} =>{2}".format(x, y, z))
+print("Bitwise AND on operands:         {0}&={1} =>{2}".format(x, y, z))
 z = x
 z |= y
-print("{0}|={1} =>{2}".format(x, y, z))
+print("Bitwise OR on operands:          {0}|={1} =>{2}".format(x, y, z))
 z = x
 z ^= y
-print("{0}^={1} =>{2}".format(x, y, z))
+print("Bitwise xOR on operands:         {0}^={1} =>{2}".format(x, y, z))
 z = x
 z >>= y
-print("Verschiebe um y bit nach rechts: {0}>>={1} =>{2}".format(x, y, z))
+print("Bitwise right shift on operands: {0}>>={1} =>{2}".format(x, y, z))
 z = x
 z <<= y
-print("Verschiebe um y bit nach links:  {0}<<={1} =>{2}".format(x, y, z))
+print("Bitwise left shift on operands:  {0}<<={1} =>{2}".format(x, y, z))
