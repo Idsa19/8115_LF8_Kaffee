@@ -15,7 +15,6 @@ print("Bitwise OR on operands:          {0}|={1} =>{2}".format("{0:08b}".format(
 print("Bitwise OR on operands:          {0}|={1} =>{2}\n".format(x, y, z))
 z = x
 z ^= y
-hi = z
 print("Bitwise xOR on operands:         {0}^={1} =>{2}".format("{0:08b}".format(x), "{0:08b}".format(y), "{0:08b}".format(z)))
 print("Bitwise xOR on operands:         {0}^={1} =>{2}\n".format(x, y, z))
 z = x
