@@ -7,5 +7,5 @@ elif x > 100:
     print("Die Zahl ist größer 100")
 if (x % 2) == 0:
     print("Die Zahl ist gerade")
-elif (x % 2) != 0:
+else:
     print("Die Zahl ist ungerade")
