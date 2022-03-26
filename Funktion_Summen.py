@@ -23,7 +23,4 @@ def Sum4(n):
     return 0
 
 
-print(Sum1(4))
-print(Sum2(4))
-print(Sum3(4))
-print(Sum4(4))
+print(Sum4(997))
