@@ -23,4 +23,4 @@ def Sum4(n):
     return 0
 
 
-print(Sum4(997))
+print(Sum4(100))
