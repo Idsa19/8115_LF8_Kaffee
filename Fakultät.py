@@ -10,8 +10,10 @@ def rekursive(num):
         return (num * rekursive(num - 1))
     return 1
 
+
 while True:
     n = int(input("Zahl eingeben: "))
+    if n <= 0: break
     print(iterativ(n))
     print(rekursive(n))
-    if n == 0: break
+

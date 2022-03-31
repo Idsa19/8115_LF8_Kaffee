@@ -12,7 +12,7 @@ def Sum2(n):
 
 def Sum3(n):
     sum = 0
-    for x in range(1, n + 1):
+    for x in range(n + 1):
         sum += x
     return sum
 
@@ -22,5 +22,9 @@ def Sum4(n):
         return (n + Sum4(n - 1))
     return 0
 
+num = 997
 
-print(Sum4(100))
+print(Sum1(num))
+print(Sum2(num))
+print(Sum3(num))
+print(Sum4(num))
